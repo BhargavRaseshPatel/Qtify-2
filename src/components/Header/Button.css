@@ -1,0 +1,24 @@
+.button {
+box-sizing: border-box;
+font-weight: 600;
+font-size: 18px;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 16px;
+gap: 10px;
+width: 170px;
+height: 47px;
+
+background: #121212;
+border-radius: 12px;
+color: #34C94B;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+

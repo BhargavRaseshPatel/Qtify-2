@@ -1,0 +1,24 @@
+.card {
+    width: 159px;
+    height: 232px;
+    padding: 14px;
+}
+
+.card-content {
+    width: 159px;
+    height: 205px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.image {
+    width: 159px;
+    height: 170px;
+    border-radius: 10px 10px 0px 0px;
+    object-position: center;
+    object-fit: fill;
+}
+
+.text-title {
+    color: #ffffff;
+}

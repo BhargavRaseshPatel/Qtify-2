@@ -1,0 +1,40 @@
+.listOfSong {
+    width: '1376px';
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-name {
+    font-weight: 600;
+    font-size: '';
+    color: white;
+    font-size: 20px;
+}
+
+.songs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.song-list-type {
+    color: #34C94B;
+    font-weight: 600;
+}
+
+.song-list-type:hover {
+    cursor: pointer;
+}
+
+.swiper-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.swiper {
+    position: relative;
+}
