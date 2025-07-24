@@ -6,8 +6,7 @@
 }
 
 .image-logo {
-    position: absolute;
-    left: 32px;
+    margin-left: 32px;
     width: 67px;
     height: 34px;
 }
