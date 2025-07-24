@@ -4,10 +4,7 @@ import { Button } from '@mui/material'
 
 const ButtonComponent = ({ value }) => {
   return (
-    // <Button className='button' variant='contained'>
-    //   {value}
-    // </Button>
-<button className='button'>{value}</button>
+    <button className='button'>{value}</button>
   )
 }
 
