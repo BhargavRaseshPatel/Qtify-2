@@ -1,12 +1,12 @@
-.header-logo {
+/* .header-logo {
     display: flex;
     align-items: center;
     height: 100%;
     width: 10%;
-}
+} */
 
 .image-logo {
     margin-left: 32px;
-    width: auto;
-    height: 54px;
+    width: 67px;
+    height: 34px;
 }
