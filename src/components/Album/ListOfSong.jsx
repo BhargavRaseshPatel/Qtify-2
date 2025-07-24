@@ -88,7 +88,7 @@ const ListOfSong = ({ album, name }) => {
                         onClick={() => setShowAllSongs(!showAllSongs)}
                         className='song-list-type'
                     >
-                        {showAllSongs ? 'Collapse' : 'Show all'}
+                        {showAllSongs ? 'Collapse' : 'Show All'}
                     </p>
                 )}
             </div>
