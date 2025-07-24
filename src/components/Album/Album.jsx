@@ -32,8 +32,8 @@ const Album = () => {
     return (
         <div className='album'>
             {/* {topAlbum.map((al, index) => ( */}
-                <ListOfSong album={topAlbum[0]} name={'Top Album'}/>
-                <ListOfSong album={newAlbum[0]} name={'New Album'}/>
+                <ListOfSong album={topAlbum} name={'Top Album'}/>
+                <ListOfSong album={newAlbum} name={'New Album'}/>
                 <ListOfSong album={song} name={'Songs'} />
             {/* ))} */}
         </div>

@@ -48,7 +48,7 @@ const ListOfSong = ({ album, name }) => {
         })
 
         setSwiperData(groupedSongs)
-        console.log(swiperData)
+        // console.log(songs)
 
     }, [album, value])
 
