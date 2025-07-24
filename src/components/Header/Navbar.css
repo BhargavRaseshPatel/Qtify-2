@@ -17,35 +17,3 @@
     background-color: #121212;
     padding: 10px 16px;
 }
-
-.button {
-    /* Frame 532 */
-
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px 16px;
-    gap: 10px;
-
-    position: absolute;
-    width: 170px;
-    height: 47px;
-    left: 1238px;
-    top: 13px;
-    color: white;
-
-    background: #121212;
-    /* Primary 400 */
-    border: 1px solid #34C94B;
-    border-radius: 12px;
-
-    font-weight: 600;
-    font-size: 18px;
-    color: #34C94B;
-
-}
-
-

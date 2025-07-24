@@ -1,8 +1,8 @@
 import React from 'react'
 import './Navbar.css'
-import Button from './Button'
 import Logo from './Logo'
 import Search from './Search'
+import ButtonComponent from './Button'
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
       <Search />
 
       <div data-testid="button">
-        <Button value={'Give Feedback'} />
+        <ButtonComponent value={'Give Feedback'} />
       </div>
     </div>
   )

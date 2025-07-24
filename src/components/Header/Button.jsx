@@ -1,10 +1,14 @@
 import React from 'react'
 import './Button.css'
+import { Button } from '@mui/material'
 
-const Button = ({ value }) => {
+const ButtonComponent = ({ value }) => {
   return (
-    <input type='button' className='button' value={value} />
+    // <Button className='button' variant='contained'>
+    //   {value}
+    // </Button>
+<button className='button'>{value}</button>
   )
 }
 
-export default Button
+export default ButtonComponent
