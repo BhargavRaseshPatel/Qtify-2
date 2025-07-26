@@ -7,6 +7,6 @@
 .image-logo {
   width: 67px;
   height: 34px;
-  /* margin-top: 20px; Add top space to help with test */
+  margin-top: 20px; /*Add top space to help with test */
   margin-left: 32px; /* For left space test */
 }
